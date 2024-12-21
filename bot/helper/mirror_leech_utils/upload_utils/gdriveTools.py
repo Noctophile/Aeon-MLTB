@@ -333,7 +333,7 @@ class GoogleDriveHelper:
         )
         file_metadata = {
             "name": directory_name,
-            "description": "Uploaded by Aeon",
+            "description": "Uploaded by Bhartiyee Leech",
             "mimeType": self.__G_DRIVE_DIR_MIME_TYPE,
         }
         if dest_id is not None:
@@ -363,7 +363,7 @@ class GoogleDriveHelper:
             file_name = async_to_sync(add_attachment, file_name, location, atc)
         file_metadata = {
             "name": file_name,
-            "description": "Uploaded by Aeon",
+            "description": "Uploaded by Bhartiyee Leech",
             "mimeType": mime_type,
         }
         if dest_id is not None:
