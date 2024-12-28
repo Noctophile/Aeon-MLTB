@@ -1,7 +1,7 @@
 from re import IGNORECASE, escape, search
 
 nsfw_keywords = [
-"rizz",
+    "rizz",
 ]
 
 
